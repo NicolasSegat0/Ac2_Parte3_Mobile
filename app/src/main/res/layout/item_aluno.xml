@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/ra_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RA"/>
+
+    <TextView
+        android:id="@+id/nome_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"/>
+
+    <TextView
+        android:id="@+id/cep_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEP"/>
+
+    <TextView
+        android:id="@+id/logradouro_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logradouro"/>
+
+    <TextView
+        android:id="@+id/complemento_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complemento"/>
+
+    <TextView
+        android:id="@+id/bairro_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bairro"/>
+
+    <TextView
+        android:id="@+id/cidade_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cidade"/>
+
+    <TextView
+        android:id="@+id/uf_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UF"/>
+</LinearLayout>
